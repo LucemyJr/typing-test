@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #17a2b8;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 .wrapper{
     width: 770px;
@@ -55,7 +55,7 @@ body{
     border-radius: 4px;
 }
 .typing-text p span.active{
-    color: #17a2b8;
+    color: #150867;
 }
 .typing-text p span.active::before{
     content: "";
@@ -65,7 +65,7 @@ body{
     width: 100%;
     height: 2px;
     opacity: 0;
-    background-color: #17a2b8;
+    background-color: #330867;
     animation: blink 1s ease-in-out infinite;
 }
 @keyframes blink{
@@ -90,7 +90,7 @@ body{
     cursor: pointer;
     border-radius: 5px;
     font-size: 1rem;
-    background: #17a2b8;
+    background: #150867;
     transition: transform 0.4s ease;
 }
 .content button:active{
